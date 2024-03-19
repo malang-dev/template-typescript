@@ -13,7 +13,7 @@
   "scripts": {
     "prepare": "husky install",
     "prebuild": "rimraf dist",
-    "format": "prettier --write \"src/**/*.ts\"",
+    "format": "prettier --write .",
     "build": "tsc -b tsconfig.build.json",
     "lint": "eslint \"src/**/*.ts\" --fix",
     "lint-staged": "lint-staged",
