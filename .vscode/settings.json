@@ -2,10 +2,7 @@
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": "active",
   "files.insertFinalNewline": true,
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ],
+  "eslint.validate": ["javascript", "typescript"],
   "[json][jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -17,7 +14,5 @@
       "source.fixAll.eslint.format": "explicit"
     }
   },
-  "conventionalCommits.scopes": [
-    "code-format"
-  ]
+  "conventionalCommits.scopes": ["code-format"]
 }
