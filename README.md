@@ -42,4 +42,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 ## Acknowledgments
 
 Inspiration, code snippets, icon, etc.
-* [Template Typescript](https://github.com/foxglove/template-typescript) by Foxglove.
+
+- [Template Typescript](https://github.com/foxglove/template-typescript) by Foxglove.
