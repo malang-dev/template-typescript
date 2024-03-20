@@ -2,7 +2,10 @@
   "name": "@malang-dev/template-typescript",
   "version": "1.0.0",
   "description": "Template repository for new TypeScript projects",
-  "repository": "git@github.com:malang-dev/template-typescript.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malang-dev/template-typescript"
+  },
   "author": {
     "name": "Malang.dev",
     "email": "hello@malang.dev",
@@ -44,8 +47,11 @@
   },
   "lint-staged": {
     "src/**/*.{ts|test.ts}": [
-      "prettier --write --ignore-unknown",
-      "eslint --max-warnings 0 \"src/**/*.ts\""
+      "eslint --max-warnings 0 \"src/**/*.ts\"",
+      "prettier --write --ignore-unknown"
     ]
+  },
+  "engines": {
+    "node": ">= 18"
   }
 }
