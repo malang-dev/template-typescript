@@ -41,10 +41,6 @@
     "ts-jest": "^29.1.2",
     "typescript": "^5.4.2"
   },
-  "resolutions": {
-    "wrap-ansi": "7.0.0",
-    "string-width": "4.2.3"
-  },
   "lint-staged": {
     "src/**/*.{ts|test.ts}": [
       "eslint --max-warnings 0 \"src/**/*.ts\"",
