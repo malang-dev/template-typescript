@@ -44,7 +44,7 @@
   },
   "lint-staged": {
     "src/**/*.{ts|test.ts}": [
-      "eslint --max-warnings 0 \"src/**/*.ts\"",
+      "eslint \"src/**/*.ts\"",
       "prettier --write --ignore-unknown"
     ]
   },

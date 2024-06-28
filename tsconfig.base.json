@@ -30,6 +30,7 @@
     "strictPropertyInitialization": false,
     "strictNullChecks": false,
     "strictFunctionTypes": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "verbatimModuleSyntax": false
   }
 }
