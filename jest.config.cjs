@@ -3,6 +3,9 @@ module.exports = {
   rootDir: "src",
   testEnvironment: "node",
   testRegex: ".test.ts$",
+  moduleNameMapper: {
+    "^@/(.*)$": "<rootDir>/$1",
+  },
   transform: {
     "^.+\\.(t|j)s$": "ts-jest",
   },
